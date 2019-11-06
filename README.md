@@ -85,8 +85,8 @@ into_the_groove = Song.new("Into the Groove", madonna, pop)
 - The `Doctor` class needs an instance method, `#new_appointment`, that takes in a
   an instance of the `Patient` class and a date, and creates a new `Appointment`. That
   `Appointment` should know that it belongs to the doctor
-- The `Doctor` class needs an instance method, `#appointments`, that iterates
-  through all `Appointment`s and finds those belonging to this doctor.
+<!-- - The `Doctor` class needs an instance method, `#appointments`, that iterates
+  through all `Appointment`s and finds those belonging to this doctor. -->
 - The `Doctor` class needs an instance method, `#patients`, that iterates over
   that doctor's `Appointment`s and collects the patient that belongs to each
   `Appointment`s.
